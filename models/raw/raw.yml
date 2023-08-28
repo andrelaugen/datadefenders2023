@@ -1,0 +1,15 @@
+
+version: 2
+
+models:
+    - name: company_identifiers
+      description: "A starter dbt model"
+      columns:
+          - name: REPRISK_COMPANY_ID
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: company_incidents
+      description: "A starter dbt model"
