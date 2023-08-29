@@ -1,6 +1,6 @@
 select distinct
     ci.reprisk_company_id,
-    ci.INCIDENT_DATE
+    month(ci.INCIDENT_DATE_date) as INCIDENT_by_month,
     cr.company_name,
     related_countries,
     animal_mistreatment

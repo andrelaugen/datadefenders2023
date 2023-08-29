@@ -1,6 +1,6 @@
 select distinct
     ci.reprisk_company_id,
-    ci.INCIDENT_DATE
+    ci.INCIDENT_DATE,
     cr.company_name,
     related_countries,
     child_labor
