@@ -40,3 +40,5 @@ models:
       materialized: view
     consolidated:
       materialized: view
+    aggregated:
+      materialized: table
